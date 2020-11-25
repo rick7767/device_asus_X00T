@@ -1215,10 +1215,6 @@ vendor/bin/energy-awareness
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/bin/msm_irqbalance
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
 vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libqti-perfd-client.so
@@ -1231,6 +1227,13 @@ vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 vendor/lib64/vendor.qti.hardware.perf@2.0.so
+
+# Perf-Configs - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/etc/perf/commonresourceconfigs.xml|b014d70d329a385091aacb6539b2fee1bd9b285d
+vendor/etc/perf/perfconfigstore.xml|b1d147be38c5a11f13cab051360226ef15b432c5
+vendor/etc/perf/targetresourceconfigs.xml|24847e0237d2813639d1b2acfc4926ca8ce9060c
+vendor/etc/perf/perfboostsconfig.xml|9398d1e9b389d436950d9586ef38f4f88dfed7fc
+vendor/etc/perf/targetconfig.xml|376ae331df9d6c30b6208f25d04ae4ea11c0e2ea
 
 # Peripheral manager
 vendor/bin/pm-proxy

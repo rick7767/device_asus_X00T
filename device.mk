@@ -81,7 +81,7 @@ $(call inherit-product, vendor/asus/X00T/X00T-vendor.mk)
 PRODUCT_PACKAGES += \
     libgui_vendor \
     libxml2 \
-    Snap
+    Camera2
     
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
